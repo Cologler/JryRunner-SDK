@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace JryRunner.SDK
 {
-    public class Class1
+    public enum RunnerMode
     {
+        StartWith,
+
+        Open
     }
 }
